@@ -65,7 +65,7 @@ public class RightClickDoubleClick {
 		WebElement descriptionclick = driver.findElement(By.cssSelector("td #dm2m3i0tdT"));
 		descriptionclick.click();
 
-		// Switching to new window
+		// Switching to new window and move 
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
 		driver.switchTo().window(tabs.get(1));
 
